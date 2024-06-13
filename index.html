@@ -7,23 +7,76 @@
     <link rel="stylesheet" href="./assets/styles.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <!-- Logo -->
-      <img
-        src="./assets/img/Logo_Alastor.png"
-        alt="Logo Alastor"
-      />
+      <a href="#"
+        ><img src="./assets/img/Logo_Alastor.png" alt="Logo Alastor" />
+      </a>
       <!--Navbar  -->
+
       <nav class="navbar">
+        <label for="menu-toggle" class="menu-label">
+          <img src="./assets/img/icons8-menú.svg" alt="icono de menu" />
+        </label>
+        <input type="checkbox" id="menu-toggle" />
         <ul class="navbar-list">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Nuestras Cervezas</a></li>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#hero">Nosotros</a></li>
+          <li><a href="#">Estilos</a></li>
           <li><a href="#">Galería</a></li>
           <li><a href="#">Contacto</a></li>
         </ul>
         <!-- imagen de carrito -->
-        <img src="https://cdn-br.icons8.com/eAgLYVEoh0G3_GXLlc3VDg/Yy4zH4ZQPUGL4oVkVobWTA/Shopping_Cart.png" alt="Carrito de compra" />
+        <a href="#"
+          ><img
+            src="https://cdn-br.icons8.com/eAgLYVEoh0G3_GXLlc3VDg/Yy4zH4ZQPUGL4oVkVobWTA/Shopping_Cart.png"
+            alt="Carrito de compra"
+          />
+        </a>
       </nav>
     </header>
+    <main>
+      <section id="hero">
+        <div class="hero__info">
+          <h1>Tu portal a la auténtica cerveza artesanal</h1>
+          <p>
+            Alastor Beer Craft es una empresa dedicada a la elaboración de
+            cerveza artesanal, que tiene como parte de su objetivo, realizar un
+            viaje histórico a los orígenes de la misma, recreando cada uno de
+            los antiguos sabores que le dieron vida, como así también explorar
+            los nuevos horizontes que nos ofrece la industria.
+          </p>
+          <div class="hero__links">
+            <a href="#">PROBÁ ALASTOR</a>
+            <a href="#" class="links__items">Conocé más</a>
+          </div>
+        </div>
+        <img
+          src="./assets/img/Belgian-beer.jpg"
+          alt="imagen de portada"
+          class="hero__img"
+        />
+      </section>
+      <section id="nosotros">
+        <div class="nosotros__container">
+          <img src="./assets/img/mundo__amarillo.png" alt="mapamundi" />
+          <div class="nosotros__title">
+            <h2>NOSOTROS</h2>
+
+            <p>
+              Alastor es fundada hace 4 años por un grupo de familiares y
+              amigos, en Buenos Aires, Argentina, a fines del 2020, y en medio
+              de la vorágine de una pandemia. Cada uno de nosotros aporta una
+              perspectiva única al diseño y a la producción de nuestra cerveza.
+              Como misión, tenemos claro que queremos ofrecer productos de
+              calidad que generen nuevas sensaciones y experiencias en los
+              paladares. Nuestra visión es convertirnos en una marca líder en la
+              industria cervecera, por eso valoramos la innovación y creatividad
+              de cada elaboración.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
