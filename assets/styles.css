@@ -129,10 +129,19 @@ main {
   padding: 10px 25px;
   font-size: 16px;
  }
- .hero__links .links__items {
+ .hero__links .links__item2 {
 background: none;
 border: 2px solid var(--btn-bg-verde);
  }
+
+.links__item2:hover,
+.links__item1:hover {
+  background: #e4c61d;
+  color: #101620;
+}
+
+
+
 /* section Nosotros */
 
  #nosotros {
@@ -185,6 +194,13 @@ border: 2px solid var(--btn-bg-verde);
 /* ----------------------------------------------------------- */
 
 @media (max-width:992px) {
+
+header{
+  max-height: 80px;
+}
+header img {
+  height: 60px;
+}
  
   .navbar {
     gap: 30px;
@@ -217,8 +233,8 @@ border: 2px solid var(--btn-bg-verde);
   }
 
  #hero{ 
-  
-  height: 80vh;
+  padding-top: 60px;
+  height: 60vh;
  }
   .hero__info {
   text-align: center;
@@ -230,9 +246,11 @@ border: 2px solid var(--btn-bg-verde);
  }
  .hero__info h1 {
   max-width: 600px;
+  font-size: 2rem;
  }
  .hero__info p {
   max-width: 600px;
+  font-size: 1rem;
 
  }
  
@@ -247,25 +265,48 @@ border: 2px solid var(--btn-bg-verde);
 
  .nosotros__title {
   max-width: 600px;
+  text-align: center;
   
  }
  .nosotros__title h2 {
   text-align: center;
+  font-size: 2rem;
  }
  .nosotros__title p {
   text-align: center;
+  font-size: 1rem;
  }
 }
 
 @media (max-width: 576px) {
+  main {
+    gap: 30px;
+  }
+  header{
+    max-height: 50px;
+  }
+  header img {
+    height: 50px;
+  }
   #hero {
-    padding-top: 65px;
+    padding-top: 110px;
+  height: 50vh;
   }
 .hero__info h1{
   max-width: 80%;
+  font-size: 1.5rem;
 }
 
 .hero__info p{
+  font-size: 1rem;
+}
+.hero__links a {
+  font-weight: 500;
+  padding: 10px 15px;
+  font-size: 0.8rem;
+ }
+
+.nosotros__title h2 {
   font-size: 1rem;
 }
 .nosotros__title p{
