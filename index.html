@@ -4,11 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alastor Craft Beer</title>
-    <link rel="stylesheet" href="./assets/styles.css" />
-    <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/favicon_io/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon_io/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon_io/favicon-16x16.png">
-<link rel="manifest" href="./assets/img/favicon_io/site.webmanifest">
+    <link rel="stylesheet" href="./assets/styles/styles.css" />
+    <link rel="stylesheet" href="./assets/styles/animaciones.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/img/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/img/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/img/favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/img/favicon_io/site.webmanifest" />
   </head>
   <body>
     <header class="header">
@@ -25,10 +40,9 @@
         <input type="checkbox" id="menu-toggle" />
         <ul class="navbar-list">
           <li><a href="#hero">Home</a></li>
-          <li><a href="#hero">Nosotros</a></li>
-          <li><a href="#">Estilos</a></li>
-          <li><a href="#">Galería</a></li>
-          <li><a href="#">Contacto</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#estilos">Estilos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
         </ul>
         <!-- imagen de carrito -->
         <a href="#"
@@ -51,7 +65,7 @@
             los nuevos horizontes que nos ofrece la industria.
           </p>
           <div class="hero__links">
-            <a href="#" class="links__item1">PROBÁ ALASTOR</a>
+            <a href="#estilos" class="links__item1">PROBÁ ALASTOR</a>
             <a href="#" class="links__item2">Conocé más</a>
           </div>
         </div>
@@ -81,6 +95,256 @@
           </div>
         </div>
       </section>
+      <section id="estilos" class="estilos">
+        <h2 class="estilos-title">- NUESTRAS CERVEZAS -</h2>
+        <div class="productos-container">
+          <!-- producto 1 -->
+          <div class="producto">
+            <img
+              src="./assets/img/products/cardBrownAle.png"
+              alt="Cerveza Scotish"
+            />
+            <div class="producto-info">
+              <h3 class="product-title">Scotish Ale</h3>
+              <div class="amargor">
+                <div class="lupulo">
+                  <img
+                    src="./assets/img/escala-amargor/maltosa.png"
+                    alt="lupulo amarillo"
+                  />
+                </div>
+                <div class="lupulo">
+                  <img
+                    src="./assets/img/escala-amargor/maltosa.png"
+                    alt="lupulo amarillo"
+                  />
+                </div>
+                <div class="lupulo">
+                  <img
+                    src="./assets/img/escala-amargor/semi-amarga.png"
+                    alt="lupulo verde-amarillo"
+                  />
+                </div>
+                <div class="lupulo">
+                  <img
+                    src="./assets/img/escala-amargor/sin-amargor.png"
+                    alt="lupulo blanco"
+                  />
+                </div>
+                <div class="lupulo">
+                  <img
+                    src="./assets/img/escala-amargor/sin-amargor.png"
+                    alt="lupulo blanco"
+                  />
+                </div>
+              </div>
+              <div class="escala-amargor">
+                <p>Maltosa</p>
+                <p>Lupulada</p>
+              </div>
+              <div class="grados-alcohol">
+                <p>Alcohol</p>
+                <p>6%</p>
+              </div>
+            </div>
+          </div>
+          <!-- producto 2 -->
+          <div class="producto">
+            <img
+              src="./assets/img/products/cardPorter.png"
+              alt="Cerveza Neipa"
+            />
+            <div class="producto-info">
+              <h3 class="product-title">Baltic Porter</h3>
+              <div class="amargor">
+                <div class="lupulo">
+                  <img
+                    src="./assets/img/escala-amargor/maltosa.png"
+                    alt="lupulo amarillo"
+                  />
+                </div>
+                <div class="lupulo">
+                  <img
+                    src="./assets/img/escala-amargor/maltosa.png"
+                    alt="lupulo amarillo"
+                  />
+                </div>
+                <div class="lupulo">
+                  <img
+                    src="./assets/img/escala-amargor/semi-amarga.png"
+                    alt="lupulo verde-amarillo"
+                  />
+                </div>
+                <div class="lupulo">
+                  <img
+                    src="./assets/img/escala-amargor/amargor.png"
+                    alt="lupulo verde"
+                  />
+                </div>
+                <div class="lupulo">
+                  <img
+                    src="./assets/img/escala-amargor/sin-amargor.png"
+                    alt="lupulo blanco"
+                  />
+                </div>
+              </div>
+              <div class="escala-amargor">
+                <p>Maltosa</p>
+                <p>Lupulada</p>
+              </div>
+              <div class="grados-alcohol">
+                <p>Alcohol</p>
+                <p>6.6%</p>
+              </div>
+            </div>
+          </div>
+          <!-- producto 3 -->
+          <div class="producto">
+            <img
+              src="./assets/img/products/cardsaison.png"
+              alt="Cerveza Scotish"
+            />
+            <div class="producto-info">
+              <h3 class="product-title">Saison</h3>
+              <div class="amargor">
+                <div class="lupulo">
+                  <img
+                    src="./assets/img/escala-amargor/maltosa.png"
+                    alt="lupulo amarillo"
+                  />
+                </div>
+                <div class="lupulo">
+                  <img
+                    src="./assets/img/escala-amargor/maltosa.png"
+                    alt="lupulo amarillo"
+                  />
+                </div>
+                <div class="lupulo">
+                  <img
+                    src="./assets/img/escala-amargor/semi-amarga.png"
+                    alt="lupulo verde-amarillo"
+                  />
+                </div>
+                <div class="lupulo">
+                  <img
+                    src="./assets/img/escala-amargor/amargor.png"
+                    alt="lupulo verde"
+                  />
+                </div>
+                <div class="lupulo">
+                  <img
+                    src="./assets/img/escala-amargor/sin-amargor.png"
+                    alt="lupulo blanco"
+                  />
+                </div>
+              </div>
+              <div class="escala-amargor">
+                <p>Maltosa</p>
+                <p>Lupulada</p>
+              </div>
+              <div class="grados-alcohol">
+                <p>Alcohol</p>
+                <p>7.0%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="btn-more">Ver más</button>
+      </section>
+
+      <section id="contacto">
+        <h2>Contacto</h2>
+
+        <div class="contacto-container">
+          <form class="formulario-container">
+            <div class="formulario-items">
+              <h3>Dejanos tu mensaje</h3>
+              <label for="name">Nombre y Apellido:</label>
+              <input
+                type="text"
+                id="name"
+                placeholder="James Hetfield"
+                required
+              />
+            </div>
+            <div class="formulario-items">
+              <label for="email"> E-mail:</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="JamesHetf@gmail.com"
+                required
+              />
+            </div>
+            <div class="formulario-items">
+              <label for="telefono">Teléfono:</label>
+              <input type="tel" id="telefono" placeholder="1133781509" />
+            </div>
+            <div class="formulario-items">
+              <label for="mensaje"></label>
+              <textarea id="mensaje"> Dejá tu mensaje</textarea>
+            </div>
+            <button class="btn-enviar">Enviar</button>
+          </form>
+          <div class="contacto-info">
+            <h3>Detalles de contacto</h3>
+            <p>
+              <span class="contacto-span">Dirección:</span> Calle falsa 123,
+              General Rodríguez, Buenos Aires
+            </p>
+            <p>
+              <span class="contacto-span">Teléfono: </span> +549 11 36781405
+            </p>
+            <p>
+              <span class="contacto-span">Email: </span>
+              contacto@alastorbeercraft.com
+            </p>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10113.561986617207!2d-58.92786222386688!3d-34.597042274879925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1719495741776!5m2!1ses-419!2sar"
+              width="400"
+              height="400"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+        <div class="contacto-redes">
+          <div class="redes-titulo">
+            <span></span>
+            <h3>SEGUINOS EN REDES SOCIALES</h3>
+            <span></span>
+          </div>
+          <div class="redes-sociales">
+            <a href="#" class="redes-iconos"
+              ><img
+                src="./assets/img/redes-sociales/icon-facebook.png"
+                alt="icono de Facebook"
+            /></a>
+            <a href="#" class="redes-iconos"
+              ><img
+                src="./assets/img/redes-sociales/icon-instagram.png"
+                alt="icono de Instagram"
+            /></a>
+            <a href="#" class="redes-iconos">
+              <img
+                src="./assets/img/redes-sociales/icon-twitter.png"
+                alt="icono de Twitter"
+            /></a>
+            <a href="#" class="redes-iconos"
+              ><img
+                src="./assets/img/redes-sociales/icon-google.png"
+                alt="icono de Google"
+            /></a>
+          </div>
+        </div>
+
+      </section>
     </main>
+    <footer>
+      <span class="span-footer"></span>
+      <img src="./assets/img/Logo_Alastor.png" alt="logo Alastor" />
+    </footer>
   </body>
 </html>
