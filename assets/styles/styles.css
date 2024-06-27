@@ -37,9 +37,8 @@
 header {
   /* border: 1px solid red; */
   background: linear-gradient(#000f00, var(--background));
-  position: fixed;
+  position: sticky;
   top: 0;
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -294,9 +293,8 @@ main {
   align-items: center;
   justify-content: center;
   gap: 60px;
-  max-width: var(--max-width-section);
+  width: var(--max-width-section);
   color: var(--text-white);
-  height: 90vh;
 }
 #contacto h2 {
   font-size: 2.5rem;
@@ -521,7 +519,8 @@ footer img {
 
   .contacto-container {
     flex-direction: column;
-    width: 50%;
+    align-items: center;
+    width: 70%;
   }
   .contacto-container img {
     order: 1;
@@ -569,9 +568,7 @@ footer img {
     font-size: 0.8rem;
   }
 
-  .estilo {
   
-  }
 .productos-container {
   flex-direction: column;
 }
@@ -580,5 +577,13 @@ footer img {
   height: 290px;
   width: 250px;
 }
-  
+  .contacto-container {
+    width: 300px;
+  }
+  .contacto-info p {
+    font-size: .8rem;
+  }
+  .formulario-items {
+    font-size: 0.9rem;
+  }
 }
