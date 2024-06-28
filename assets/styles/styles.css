@@ -254,8 +254,8 @@ main {
 }
 
 .lupulo img {
-  max-width: 90%;
-  height: 80%;
+  width: 90%;
+  /* height: 80%; */
 }
 
 .escala-amargor,
