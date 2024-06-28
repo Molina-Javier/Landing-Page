@@ -82,6 +82,7 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 50px;
   /* border: 1px solid red; */
 }
 
@@ -90,7 +91,7 @@ main {
   justify-content: center;
   align-items: center;
   max-width: var(--max-width-section);
-  height: 90vh;
+  /* height: 90vh; */
   gap: 30px;
 }
 .hero__info {
@@ -173,7 +174,7 @@ main {
 }
 
 .nosotros__container img {
-  width: 70%;
+  width: 300px;
 }
 .nosotros__title p {
   font-size: 1.2rem;
@@ -448,15 +449,13 @@ footer img {
   }
 
   #hero {
-    padding-top: 60px;
-    height: 60vh;
-    margin: 3rem 1rem;
+    padding-top: 40px;
   }
   .hero__info {
     text-align: center;
     justify-content: center;
     align-items: center;
-    max-width: 90%;
+    width: 90%;
     padding: 30px 0;
   }
   .hero__info h1 {
@@ -491,15 +490,12 @@ footer img {
   }
   /* section estilos */
 
-  .estilo {
-    max-width: 80%;
-  }
   .estilos-title {
   
     font-size: 1.6rem;
   }
   .productos-container {
-    max-width: 80%;
+    width: 90%;
     justify-content: center;
    
   }
