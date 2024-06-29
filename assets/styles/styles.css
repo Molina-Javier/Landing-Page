@@ -525,6 +525,10 @@ footer img {
   .contacto-container form {
     order: 2;
   }
+
+  .redes-titulo span{
+    display: none;
+  }
 }
 
 @media (max-width: 576px) {
