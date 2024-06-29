@@ -28,7 +28,7 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 
 /* ----------------------------------------------------------- */
@@ -192,7 +192,7 @@ main {
 /* Section estilos */
 
 #estilos {
- 
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -369,7 +369,7 @@ main {
   justify-content: center;
   gap: 30px;
   max-width: var(--max-width-section);
-  
+
 }
 
 .redes-titulo {
@@ -413,7 +413,7 @@ footer img {
 /* ----------------------------------------------------------- */
 
 @media (max-width: 992px) {
- 
+
   header {
     max-height: 80px;
 
@@ -474,9 +474,12 @@ footer img {
   .hero__img {
     display: none;
   }
-
+/* section nosotros */
+#nosotros {
+  max-width: 90%;
+}
   .nosotros__container {
-    max-width: 90%;
+    /* max-width: 90%; */
     flex-direction: column;
   }
 
@@ -497,18 +500,18 @@ footer img {
   width: 50%;
 }
   .estilos-title {
-  
+
     font-size: 1.6rem;
   }
   .productos-container {
     width: 90%;
     justify-content: center;
-   
+
   }
   .product-title {
     font-size: 1.3rem;
   }
-  
+
   .producto {
     width: 250px;
     height: 300px;
@@ -534,6 +537,7 @@ footer img {
   }
   .contacto-redes {
     max-width: 90%;
+    order: 3;
   }
 .redes-titulo{
   max-width: 90%;
@@ -580,7 +584,7 @@ footer img {
     font-size: 0.8rem;
   }
 
-  
+
 .productos-container {
   flex-direction: column;
 }
