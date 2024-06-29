@@ -28,6 +28,7 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
+  border: 1px solid red;
 }
 
 /* ----------------------------------------------------------- */
@@ -197,7 +198,7 @@ main {
   align-items: center;
   justify-content: center;
   gap: 40px;
-  width: var(--max-width-section);
+  max-width: var(--max-width-section);
 }
 
 .estilos-title {
@@ -294,7 +295,7 @@ main {
   align-items: center;
   justify-content: center;
   gap: 60px;
-  width: var(--max-width-section);
+  max-width: var(--max-width-section);
   color: var(--text-white);
 }
 #contacto h2 {
@@ -367,17 +368,18 @@ main {
   align-items: center;
   justify-content: center;
   gap: 30px;
+  max-width: var(--max-width-section);
+  
 }
 
 .redes-titulo {
   display: flex;
-  max-width: var(--max-width-section);
   justify-content: center;
   align-items: center;
 }
 .redes-titulo span {
   height: 5px;
-  width: 300px;
+  min-width: 100px;
   background: var(--btn-bg-verde);
   bottom: 3px;
 }
@@ -411,6 +413,7 @@ footer img {
 /* ----------------------------------------------------------- */
 
 @media (max-width: 992px) {
+ 
   header {
     max-height: 80px;
 
@@ -450,6 +453,7 @@ footer img {
 
   #hero {
     padding-top: 40px;
+    max-width: 100%;
   }
   .hero__info {
     text-align: center;
@@ -489,7 +493,9 @@ footer img {
     font-size: 1rem;
   }
   /* section estilos */
-
+#etilos {
+  width: 50%;
+}
   .estilos-title {
   
     font-size: 1.6rem;
@@ -510,13 +516,13 @@ footer img {
 
   /* seccion contacto */
   #contacto {
-    height: 80%;
+  max-width: 90%;
   }
 
   .contacto-container {
     flex-direction: column;
     align-items: center;
-    width: 70%;
+    max-width: ;width: 70%;
   }
   .contacto-container img {
     order: 1;
@@ -525,7 +531,12 @@ footer img {
   .contacto-container form {
     order: 2;
   }
-
+  .contacto-redes {
+    max-width: 90%;
+  }
+.redes-titulo{
+  max-width: 90%;
+}
   .redes-titulo span{
     display: none;
   }
