@@ -517,12 +517,13 @@ footer img {
   /* seccion contacto */
   #contacto {
   max-width: 90%;
+  padding-bottom: 40px;
   }
 
   .contacto-container {
     flex-direction: column;
     align-items: center;
-    max-width: ;width: 70%;
+    max-width: 70%;
   }
   .contacto-container img {
     order: 1;
