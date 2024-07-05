@@ -29,13 +29,15 @@
     <header class="header">
       <!-- Logo -->
       <a href="#"
-        ><img src="./assets/img/Logo_Alastor.png" alt="Logo Alastor" />
+        ><img src="./assets/img/logo-alastor.png" alt="Logo Alastor" />
       </a>
       <!--Navbar  -->
 
       <nav class="navbar">
         <label for="menu-toggle" class="menu-label">
-          <img src="./assets/img/icons8-menú.svg" alt="icono de menu" />
+          <span></span>
+          <span></span>
+          <span></span>
         </label>
         <input type="checkbox" id="menu-toggle" />
         <ul class="navbar-list">
@@ -51,300 +53,536 @@
             alt="Carrito de compra"
           />
         </a>
+        <div class="overlay"></div>
       </nav>
     </header>
     <main>
       <section id="hero">
-        <div class="hero__info">
-          <h1>Tu portal a la auténtica cerveza artesanal</h1>
-          <p>
-            Alastor Beer Craft es una empresa dedicada a la elaboración de
-            cerveza artesanal, que tiene como parte de su objetivo, realizar un
-            viaje histórico a los orígenes de la misma, recreando cada uno de
-            los antiguos sabores que le dieron vida, como así también explorar
-            los nuevos horizontes que nos ofrece la industria.
-          </p>
-          <div class="hero__links">
-            <a href="#estilos" class="links__item1">PROBÁ ALASTOR</a>
-            <a href="#" class="links__item2">Conocé más</a>
+        <div class="container">
+          <div class="container-hero">
+            <div class="hero__info">
+              <h1>Tu portal a la auténtica cerveza artesanal</h1>
+              <p>
+                Alastor Beer Craft es una empresa dedicada a la elaboración de
+                cerveza artesanal, que tiene como parte de su objetivo, realizar
+                un viaje histórico a los orígenes de la misma, recreando cada
+                uno de los antiguos sabores que le dieron vida, como así también
+                explorar los nuevos horizontes que nos ofrece la industria.
+              </p>
+              <div class="hero__links">
+                <a href="#estilos" class="links__item1">PROBÁ ALASTOR</a>
+                <a href="#" class="links__item2">Conocé más</a>
+              </div>
+            </div>
+            <img
+              src="./assets/img/Alastor-variedades.jpg"
+              alt="imagen de portada"
+              class="hero__img"
+            />
           </div>
         </div>
-        <img
-          src="./assets/img/Belgian-beer.jpg"
-          alt="imagen de portada"
-          class="hero__img"
-        />
       </section>
       <section id="nosotros">
-        <div class="nosotros__container">
-          <img src="./assets/img/mundo__amarillo.png" alt="mapamundi" />
-          <div class="nosotros__title">
-            <h2>NOSOTROS</h2>
+        <div class="container">
+          <div class="nosotros__container">
+            <img src="./assets/img/mundo__amarillo.png" alt="mapamundi" />
+            <div class="nosotros__title">
+              <h2>NOSOTROS</h2>
 
-            <p>
-              Alastor es fundada hace 4 años por un grupo de familiares y
-              amigos, en Buenos Aires, Argentina, a fines del 2020, y en medio
-              de la vorágine de una pandemia. Cada uno de nosotros aporta una
-              perspectiva única al diseño y a la producción de nuestra cerveza.
-              Como misión, tenemos claro que queremos ofrecer productos de
-              calidad que generen nuevas sensaciones y experiencias en los
-              paladares. Nuestra visión es convertirnos en una marca líder en la
-              industria cervecera, por eso valoramos la innovación y creatividad
-              de cada elaboración.
-            </p>
+              <p>
+                Alastor es fundada hace 4 años por un grupo de familiares y
+                amigos, en Buenos Aires, Argentina, a fines del 2020, y en medio
+                de la vorágine de una pandemia. Cada uno de nosotros aporta una
+                perspectiva única al diseño y a la producción de nuestra
+                cerveza. Como misión, tenemos claro que queremos ofrecer
+                productos de calidad que generen nuevas sensaciones y
+                experiencias en los paladares. Nuestra visión es convertirnos en
+                una marca líder en la industria cervecera, por eso valoramos la
+                innovación y creatividad de cada elaboración.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="proceso">
+        <div class="container">
+          <div class="procesos__container">
+            <h2>Descubre por qué nuestras cervezas son tan especiales.</h2>
+          <p>El objetivo que tenemos en Alastor es la calidad</p>
+            <div class="container__insumos">
+              <div class="card__insumos">
+                <img
+                src="./assets/img/cerveceria.png"
+                alt="icono de lupulo"
+                class="insumos"
+              />
+
+              <h3>Ingredientes seleccionados</h3>
+              <p>Utilizamos materias primas de la más alta calidad para obtener cervezas excepcionales.</p>
+            </div>
+            <div class="card__insumos">
+                <img
+                  src="./assets/img/caldera.png"
+                  alt="coccion de cerveza"
+                  class="insumos"
+                />
+              <h3>Proceso artesanal</h3>
+              <p>Cada cerveza es cuidadosamente elaborada y fermentada para obtener el mejor sabor.</p>
+            </div>
+            </div>
           </div>
         </div>
       </section>
       <section id="estilos" class="estilos">
-        <h2 class="estilos-title">- NUESTRAS CERVEZAS -</h2>
-        <div class="productos-container">
-          <!-- producto 1 -->
-          <div class="producto">
-            <img
-              src="./assets/img/products/cardBrownAle.png"
-              alt="Cerveza Scotish"
-            />
-            <div class="producto-info">
-              <h3 class="product-title">Scotish Ale</h3>
-              <div class="amargor">
-                <div class="lupulo">
-                  <img
-                    src="./assets/img/escala-amargor/maltosa.png"
-                    alt="lupulo amarillo"
-                  />
+        <div class="container">
+          <h2 class="estilos-title">- NUESTRAS CERVEZAS -</h2>
+          <div class="productos-container">
+            <!-- producto 1 -->
+            <div class="producto">
+              <img
+                src="./assets/img/products/cardBrownAle.png"
+                alt="Cerveza Scotish"
+              />
+              <div class="producto-info">
+                <h3 class="product-title">Scotish Ale</h3>
+                <div class="amargor">
+                  <div class="lupulo">
+                    <img
+                      src="./assets/img/escala-amargor/maltosa.png"
+                      alt="lupulo amarillo"
+                    />
+                  </div>
+                  <div class="lupulo">
+                    <img
+                      src="./assets/img/escala-amargor/maltosa.png"
+                      alt="lupulo amarillo"
+                    />
+                  </div>
+                  <div class="lupulo">
+                    <img
+                      src="./assets/img/escala-amargor/semi-amarga.png"
+                      alt="lupulo verde-amarillo"
+                    />
+                  </div>
+                  <div class="lupulo">
+                    <img
+                      src="./assets/img/escala-amargor/sin-amargor.png"
+                      alt="lupulo blanco"
+                    />
+                  </div>
+                  <div class="lupulo">
+                    <img
+                      src="./assets/img/escala-amargor/sin-amargor.png"
+                      alt="lupulo blanco"
+                    />
+                  </div>
                 </div>
-                <div class="lupulo">
-                  <img
-                    src="./assets/img/escala-amargor/maltosa.png"
-                    alt="lupulo amarillo"
-                  />
+                <div class="escala-amargor">
+                  <p>Maltosa</p>
+                  <p>Lupulada</p>
                 </div>
-                <div class="lupulo">
-                  <img
-                    src="./assets/img/escala-amargor/semi-amarga.png"
-                    alt="lupulo verde-amarillo"
-                  />
+                <div class="grados-alcohol">
+                  <p>Alcohol</p>
+                  <p>6.0%</p>
                 </div>
-                <div class="lupulo">
-                  <img
-                    src="./assets/img/escala-amargor/sin-amargor.png"
-                    alt="lupulo blanco"
-                  />
+                <div class="grados-alcohol">
+                  <p>Precio x L</p>
+                  <p>$2.500</p>
                 </div>
-                <div class="lupulo">
-                  <img
-                    src="./assets/img/escala-amargor/sin-amargor.png"
-                    alt="lupulo blanco"
-                  />
+                <div class="btn-container">
+                  <a href="#" class="btn-comprar">Agregar</a>
+                  <a href="#" class="btn-comprar">Comprar</a>
                 </div>
               </div>
-              <div class="escala-amargor">
-                <p>Maltosa</p>
-                <p>Lupulada</p>
+            </div>
+            <!-- producto 2 -->
+            <div class="producto">
+              <img
+                src="./assets/img/products/cardPorter.png"
+                alt="Cerveza Neipa"
+              />
+              <div class="producto-info">
+                <h3 class="product-title">Baltic Porter</h3>
+                <div class="amargor">
+                  <div class="lupulo">
+                    <img
+                      src="./assets/img/escala-amargor/maltosa.png"
+                      alt="lupulo amarillo"
+                    />
+                  </div>
+                  <div class="lupulo">
+                    <img
+                      src="./assets/img/escala-amargor/maltosa.png"
+                      alt="lupulo amarillo"
+                    />
+                  </div>
+                  <div class="lupulo">
+                    <img
+                      src="./assets/img/escala-amargor/semi-amarga.png"
+                      alt="lupulo verde-amarillo"
+                    />
+                  </div>
+                  <div class="lupulo">
+                    <img
+                      src="./assets/img/escala-amargor/amargor.png"
+                      alt="lupulo verde"
+                    />
+                  </div>
+                  <div class="lupulo">
+                    <img
+                      src="./assets/img/escala-amargor/sin-amargor.png"
+                      alt="lupulo blanco"
+                    />
+                  </div>
+                </div>
+                <div class="escala-amargor">
+                  <p>Maltosa</p>
+                  <p>Lupulada</p>
+                </div>
+                <div class="grados-alcohol">
+                  <p>Alcohol</p>
+                  <p>6.6%</p>
+                </div>
+                <div class="grados-alcohol">
+                  <p>Precio x L</p>
+                  <p>$2.500</p>
+                </div>
+                <div class="btn-container">
+                  <a href="#" class="btn-comprar">Agregar</a>
+                  <a href="#" class="btn-comprar">Comprar</a>
+                </div>
               </div>
-              <div class="grados-alcohol">
-                <p>Alcohol</p>
-                <p>6.0%</p>
+            </div>
+            <!-- producto 3 -->
+            <div class="producto">
+              <img
+                src="./assets/img/products/cardsaison.png"
+                alt="Cerveza Scotish"
+              />
+              <div class="producto-info">
+                <h3 class="product-title">Saison</h3>
+                <div class="amargor">
+                  <div class="lupulo">
+                    <img
+                      src="./assets/img/escala-amargor/maltosa.png"
+                      alt="lupulo amarillo"
+                    />
+                  </div>
+                  <div class="lupulo">
+                    <img
+                      src="./assets/img/escala-amargor/maltosa.png"
+                      alt="lupulo amarillo"
+                    />
+                  </div>
+                  <div class="lupulo">
+                    <img
+                      src="./assets/img/escala-amargor/semi-amarga.png"
+                      alt="lupulo verde-amarillo"
+                    />
+                  </div>
+                  <div class="lupulo">
+                    <img
+                      src="./assets/img/escala-amargor/amargor.png"
+                      alt="lupulo verde"
+                    />
+                  </div>
+                  <div class="lupulo">
+                    <img
+                      src="./assets/img/escala-amargor/sin-amargor.png"
+                      alt="lupulo blanco"
+                    />
+                  </div>
+                </div>
+                <div class="escala-amargor">
+                  <p>Maltosa</p>
+                  <p>Lupulada</p>
+                </div>
+                <div class="grados-alcohol">
+                  <p>Alcohol</p>
+                  <p>7.0%</p>
+                </div>
+                <div class="grados-alcohol">
+                  <p>Precio x L</p>
+                  <p>$2.500</p>
+                </div>
+                <div class="btn-container">
+                  <a href="#" class="btn-comprar">Agregar</a>
+                  <a href="#" class="btn-comprar">Comprar</a>
+                </div>
+              </div>
+            </div>
+            <!-- producto 4 -->
+            <div class="producto">
+              <img src="./assets/img/products/cardNeipaBeer.png" alt="Neipa" />
+              <div class="producto-info">
+                <h3 class="product-title">Neipa Ale</h3>
+                <div class="amargor">
+                  <div class="lupulo">
+                    <img
+                      src="./assets/img/escala-amargor/maltosa.png"
+                      alt="lupulo amarillo"
+                    />
+                  </div>
+                  <div class="lupulo">
+                    <img
+                      src="./assets/img/escala-amargor/maltosa.png"
+                      alt="lupulo amarillo"
+                    />
+                  </div>
+                  <div class="lupulo">
+                    <img
+                      src="./assets/img/escala-amargor/semi-amarga.png"
+                      alt="lupulo verde-amarillo"
+                    />
+                  </div>
+                  <div class="lupulo">
+                    <img
+                      src="./assets/img/escala-amargor/sin-amargor.png"
+                      alt="lupulo blanco"
+                    />
+                  </div>
+                  <div class="lupulo">
+                    <img
+                      src="./assets/img/escala-amargor/sin-amargor.png"
+                      alt="lupulo blanco"
+                    />
+                  </div>
+                </div>
+                <div class="escala-amargor">
+                  <p>Maltosa</p>
+                  <p>Lupulada</p>
+                </div>
+                <div class="grados-alcohol">
+                  <p>Alcohol</p>
+                  <p>6.0%</p>
+                </div>
+                <div class="grados-alcohol">
+                  <p>Precio x L</p>
+                  <p>$2.500</p>
+                </div>
+                <div class="btn-container">
+                  <a href="#" class="btn-comprar">Agregar</a>
+                  <a href="#" class="btn-comprar">Comprar</a>
+                </div>
+              </div>
+            </div>
+            <!-- producto 5 -->
+            <div class="producto">
+              <img
+                src="./assets/img/products/cardPilsen.png"
+                alt="Pilsen ale"
+              />
+              <div class="producto-info">
+                <h3 class="product-title">Pilsen Ale</h3>
+                <div class="amargor">
+                  <div class="lupulo">
+                    <img
+                      src="./assets/img/escala-amargor/maltosa.png"
+                      alt="lupulo amarillo"
+                    />
+                  </div>
+                  <div class="lupulo">
+                    <img
+                      src="./assets/img/escala-amargor/maltosa.png"
+                      alt="lupulo amarillo"
+                    />
+                  </div>
+                  <div class="lupulo">
+                    <img
+                      src="./assets/img/escala-amargor/semi-amarga.png"
+                      alt="lupulo verde-amarillo"
+                    />
+                  </div>
+                  <div class="lupulo">
+                    <img
+                      src="./assets/img/escala-amargor/amargor.png"
+                      alt="lupulo verde"
+                    />
+                  </div>
+                  <div class="lupulo">
+                    <img
+                      src="./assets/img/escala-amargor/sin-amargor.png"
+                      alt="lupulo blanco"
+                    />
+                  </div>
+                </div>
+                <div class="escala-amargor">
+                  <p>Maltosa</p>
+                  <p>Lupulada</p>
+                </div>
+                <div class="grados-alcohol">
+                  <p>Alcohol</p>
+                  <p>7.0%</p>
+                </div>
+                <div class="grados-alcohol">
+                  <p>Precio x L</p>
+                  <p>$2.500</p>
+                </div>
+                <div class="btn-container">
+                  <a href="#" class="btn-comprar">Agregar</a>
+                  <a href="#" class="btn-comprar">Comprar</a>
+                </div>
+              </div>
+            </div>
+            <!-- producto 6 -->
+            <div class="producto">
+              <img
+                src="./assets/img/products/cardWessbier.png"
+                alt="Wessbier ale"
+              />
+              <div class="producto-info">
+                <h3 class="product-title">Wessbier ale</h3>
+                <div class="amargor">
+                  <div class="lupulo">
+                    <img
+                      src="./assets/img/escala-amargor/maltosa.png"
+                      alt="lupulo amarillo"
+                    />
+                  </div>
+                  <div class="lupulo">
+                    <img
+                      src="./assets/img/escala-amargor/maltosa.png"
+                      alt="lupulo amarillo"
+                    />
+                  </div>
+                  <div class="lupulo">
+                    <img
+                      src="./assets/img/escala-amargor/semi-amarga.png"
+                      alt="lupulo verde-amarillo"
+                    />
+                  </div>
+                  <div class="lupulo">
+                    <img
+                      src="./assets/img/escala-amargor/amargor.png"
+                      alt="lupulo verde"
+                    />
+                  </div>
+                  <div class="lupulo">
+                    <img
+                      src="./assets/img/escala-amargor/sin-amargor.png"
+                      alt="lupulo blanco"
+                    />
+                  </div>
+                </div>
+                <div class="escala-amargor">
+                  <p>Maltosa</p>
+                  <p>Lupulada</p>
+                </div>
+                <div class="grados-alcohol">
+                  <p>Alcohol</p>
+                  <p>7.0%</p>
+                </div>
+                <div class="grados-alcohol">
+                  <p>Precio x L</p>
+                  <p>$2.500</p>
+                </div>
+                <div class="btn-container">
+                  <a href="#" class="btn-comprar">Agregar</a>
+                  <a href="#" class="btn-comprar">Comprar</a>
+                </div>
               </div>
             </div>
           </div>
-          <!-- producto 2 -->
-          <div class="producto">
-            <img
-              src="./assets/img/products/cardPorter.png"
-              alt="Cerveza Neipa"
-            />
-            <div class="producto-info">
-              <h3 class="product-title">Baltic Porter</h3>
-              <div class="amargor">
-                <div class="lupulo">
-                  <img
-                    src="./assets/img/escala-amargor/maltosa.png"
-                    alt="lupulo amarillo"
-                  />
-                </div>
-                <div class="lupulo">
-                  <img
-                    src="./assets/img/escala-amargor/maltosa.png"
-                    alt="lupulo amarillo"
-                  />
-                </div>
-                <div class="lupulo">
-                  <img
-                    src="./assets/img/escala-amargor/semi-amarga.png"
-                    alt="lupulo verde-amarillo"
-                  />
-                </div>
-                <div class="lupulo">
-                  <img
-                    src="./assets/img/escala-amargor/amargor.png"
-                    alt="lupulo verde"
-                  />
-                </div>
-                <div class="lupulo">
-                  <img
-                    src="./assets/img/escala-amargor/sin-amargor.png"
-                    alt="lupulo blanco"
-                  />
-                </div>
-              </div>
-              <div class="escala-amargor">
-                <p>Maltosa</p>
-                <p>Lupulada</p>
-              </div>
-              <div class="grados-alcohol">
-                <p>Alcohol</p>
-                <p>6.6%</p>
-              </div>
-            </div>
-          </div>
-          <!-- producto 3 -->
-          <div class="producto">
-            <img
-              src="./assets/img/products/cardsaison.png"
-              alt="Cerveza Scotish"
-            />
-            <div class="producto-info">
-              <h3 class="product-title">Saison</h3>
-              <div class="amargor">
-                <div class="lupulo">
-                  <img
-                    src="./assets/img/escala-amargor/maltosa.png"
-                    alt="lupulo amarillo"
-                  />
-                </div>
-                <div class="lupulo">
-                  <img
-                    src="./assets/img/escala-amargor/maltosa.png"
-                    alt="lupulo amarillo"
-                  />
-                </div>
-                <div class="lupulo">
-                  <img
-                    src="./assets/img/escala-amargor/semi-amarga.png"
-                    alt="lupulo verde-amarillo"
-                  />
-                </div>
-                <div class="lupulo">
-                  <img
-                    src="./assets/img/escala-amargor/amargor.png"
-                    alt="lupulo verde"
-                  />
-                </div>
-                <div class="lupulo">
-                  <img
-                    src="./assets/img/escala-amargor/sin-amargor.png"
-                    alt="lupulo blanco"
-                  />
-                </div>
-              </div>
-              <div class="escala-amargor">
-                <p>Maltosa</p>
-                <p>Lupulada</p>
-              </div>
-              <div class="grados-alcohol">
-                <p>Alcohol</p>
-                <p>7.0%</p>
-              </div>
-            </div>
-          </div>
+          <button class="btn-more">Ver más</button>
         </div>
-        <button class="btn-more">Ver más</button>
       </section>
 
       <section id="contacto">
-        <h2>Contacto</h2>
+        <div class="container">
+          <h2>Contacto</h2>
 
-        <div class="contacto-container">
-          <form class="formulario-container">
-            <div class="formulario-items">
-              <h3>Dejanos tu mensaje</h3>
-              <label for="name">Nombre y Apellido:</label>
-              <input
-                type="text"
-                id="name"
-                placeholder="James Hetfield"
-                required
-              />
+          <div class="contacto-container">
+            <div class="contacto-form">
+              <form class="formulario-container">
+                <div class="formulario-items">
+                  <h3>Dejanos tu mensaje</h3>
+                  <label for="name">Nombre y Apellido:</label>
+                  <input
+                    type="text"
+                    id="name"
+                    placeholder="James Hetfield"
+                    required
+                  />
+                </div>
+                <div class="formulario-items">
+                  <label for="email"> E-mail:</label>
+                  <input
+                    type="email"
+                    id="email"
+                    placeholder="JamesHetf@gmail.com"
+                    required
+                  />
+                </div>
+                <div class="formulario-items">
+                  <label for="telefono">Teléfono:</label>
+                  <input type="tel" id="telefono" placeholder="1133781509" />
+                </div>
+                <div class="formulario-items">
+                  <label for="mensaje"></label>
+                  <textarea id="mensaje"> Dejá tu mensaje</textarea>
+                </div>
+                <button class="btn-enviar">Enviar</button>
+              </form>
+              <div class="contacto-info">
+                <h3>Detalles de contacto</h3>
+                <p>
+                  <span class="contacto-span">Dirección:</span> Calle falsa 123,
+                  General Rodríguez, Buenos Aires
+                </p>
+                <p>
+                  <span class="contacto-span">Teléfono: </span> +549 11 36781405
+                </p>
+                <p>
+                  <span class="contacto-span">E-mail: </span>
+                  contacto@alastorbeercraft.com
+                </p>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10113.561986617207!2d-58.92786222386688!3d-34.597042274879925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1719495741776!5m2!1ses-419!2sar"
+                  width="90%"
+                  height="300px"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
             </div>
-            <div class="formulario-items">
-              <label for="email"> E-mail:</label>
-              <input
-                type="email"
-                id="email"
-                placeholder="JamesHetf@gmail.com"
-                required
-              />
-            </div>
-            <div class="formulario-items">
-              <label for="telefono">Teléfono:</label>
-              <input type="tel" id="telefono" placeholder="1133781509" />
-            </div>
-            <div class="formulario-items">
-              <label for="mensaje"></label>
-              <textarea id="mensaje"> Dejá tu mensaje</textarea>
-            </div>
-            <button class="btn-enviar">Enviar</button>
-          </form>
-          <div class="contacto-info">
-            <h3>Detalles de contacto</h3>
-            <p>
-              <span class="contacto-span">Dirección:</span> Calle falsa 123,
-              General Rodríguez, Buenos Aires
-            </p>
-            <p>
-              <span class="contacto-span">Teléfono: </span> +549 11 36781405
-            </p>
-            <p>
-              <span class="contacto-span">E-mail: </span>
-              contacto@alastorbeercraft.com
-            </p>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10113.561986617207!2d-58.92786222386688!3d-34.597042274879925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1719495741776!5m2!1ses-419!2sar"
-              width="80%"
-              height="100%"
-              style="border: 0"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
-          </div>
-          <div class="contacto-redes">
-            <div class="redes-titulo">
-              <span></span>
-              <h3>SEGUINOS EN REDES SOCIALES</h3>
-              <span></span>
+            <div class="contacto-redes">
+              <div class="redes-titulo">
+                <span></span>
+                <h3>SEGUINOS EN REDES SOCIALES</h3>
+                <span></span>
+              </div>
             </div>
             <div class="redes-sociales">
               <a href="#" class="redes-iconos"
-              ><img
-              src="./assets/img/redes-sociales/icon-facebook.png"
-              alt="icono de Facebook"
+                ><img
+                  src="./assets/img/redes-sociales/icon-facebook.png"
+                  alt="icono de Facebook"
               /></a>
               <a href="#" class="redes-iconos"
-              ><img
-              src="./assets/img/redes-sociales/icon-instagram.png"
-              alt="icono de Instagram"
+                ><img
+                  src="./assets/img/redes-sociales/icon-instagram.png"
+                  alt="icono de Instagram"
               /></a>
               <a href="#" class="redes-iconos">
                 <img
-                src="./assets/img/redes-sociales/icon-twitter.png"
-                alt="icono de Twitter"
-                /></a>
-                <a href="#" class="redes-iconos"
+                  src="./assets/img/redes-sociales/icon-twitter.png"
+                  alt="icono de Twitter"
+              /></a>
+              <a href="#" class="redes-iconos"
                 ><img
-                src="./assets/img/redes-sociales/icon-google.png"
-                alt="icono de Google"
-                /></a>
-              </div>
+                  src="./assets/img/redes-sociales/icon-google.png"
+                  alt="icono de Google"
+              /></a>
             </div>
           </div>
-            
+        </div>
       </section>
     </main>
     <footer>
       <span class="span-footer"></span>
-      <img src="./assets/img/Logo_Alastor.png" alt="logo Alastor" />
+      <img src="./assets/img/logo-alastor.png" alt="logo Alastor" />
     </footer>
   </body>
 </html>
