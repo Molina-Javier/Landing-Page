@@ -749,13 +749,7 @@ footer p {
     width: 100%;
     height: 1px;
   }
-  footer p {
-    color: #384253;
-  }
-  .footer__links {
-    color: #384253;
-    font-weight: 300;
-  }
+  
   .footer__info {
     width: 100%;
     /* flex-direction: column; */
