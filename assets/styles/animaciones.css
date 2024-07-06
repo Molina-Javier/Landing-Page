@@ -1,45 +1,59 @@
 html {
-    scroll-behavior: smooth;
-    scroll-padding-top: 120px;
+  scroll-behavior: smooth;
+  scroll-padding-top: 120px;
 }
 
 /* overlay */
 
 .overlay {
-  
-    height: 100vh;
-    width: 100%;
-    position: absolute;
-    left: 0;
-    top: 80px;
-    z-index: 1;
-    display: none;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 80px;
+  z-index: 1;
+  display: none;
 
-    background: rgba( 255, 255, 255, 0.1 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.7 );
-backdrop-filter: blur( 5px );
--webkit-backdrop-filter: blur( 5px );
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.7);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
 }
 
 #menu-toggle:checked ~ .overlay {
-    display: block;
+  display: block;
 }
 
-/* transformacion menu hambur */
+/* animacion de titulo hero */
 
-
-#menu-toggle:checked ~ .menu-hamburguesa:nth-child(1) {
-    position: absolute;
-    top: 0;
-    transform: rotate(135deg);
+.hero__info h1 {
+    background-size: 200%;
+    animation: shine 6s linear infinite;
 }
 
-#menu-toggle:checked ~.menu-hamburguesa:nth-child(2) {
-    opacity: 0;
+@keyframes shine {
+    to {
+        background-position: 200%;
+    }
 }
 
-#menu-toggle:checked ~ .menu-hamburguesa:nth-child(3) {
-    position: absolute;
-    top: 0;
-    transform: rotate(225deg);
+
+.navbar-list a::after {
+content: "";
+position: absolute;
+background-color: rgb(230, 188, 83);
+height: 3px;
+width: 0;
+left: 0;
+bottom: -5px;
+transition: all .3s ease-in-out;
+}
+
+.navbar-list a:hover::after {
+    width: 100%;
+}
+
+.navbar-list a:hover {
+    color: rgb(218, 75, 75);
+    transition: all .2s ease-in-out;
 }
