@@ -38,14 +38,7 @@ html {
   }
 } 
 
-@keyframes slide-up-card {
-  0% {
-    transform: translateY(0px);
-  }
-  100% {
-    transform: translateY(-15px);
-  }
-}
+
 /* overlay */
 
 .overlay {
@@ -112,19 +105,18 @@ transition: all .3s ease-in-out;
 
 
 /* procesos */
-.card_insumos {
-  transition: all .3s;
-}
 .card__insumos:hover {
-/* transform: scale(1.03); */
-animation: slide-up-card 0.5s both;
+transform:  translateY(-15px)
+}
+.card__insumos {
+  transition: all .5s ease-in-out;
 }
 
 
 /* product img  */
 
-.producto img {
-  transition: all .1s;
+.producto {
+  transition: transform .3s ease-in;
 }
 
 .producto:hover {
