@@ -102,7 +102,7 @@ transition: all .3s ease-in-out;
 }
 
 .hero__img {
-          animation: fade-in-right 1.2s linear both, fade 1.5s;
+          animation: fade-in-right .9s linear both, fade 1.5s;
 }
 
 /* nosotros */
