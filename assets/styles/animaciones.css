@@ -128,6 +128,6 @@ animation: slide-up-card 0.5s both;
   transition: all .1s;
 }
 
-.producto img:hover {
-transform: scale(1.05);
+.producto:hover {
+transform: scale(1.02);
 }
