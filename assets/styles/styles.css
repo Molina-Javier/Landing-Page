@@ -769,6 +769,9 @@ footer p {
   header {
     max-height: 50px;
   }
+  .navbar-list {
+    top: 52px;
+  }
   header img {
     height: 40px;
   }
